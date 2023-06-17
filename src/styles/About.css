@@ -1,0 +1,145 @@
+.About {
+    padding-top: 100px;
+    height: 75vh;
+    backdrop-filter: blur(2.5px);
+}
+
+.row {
+    margin: 100px auto;
+    margin-left: -50px;
+    width: 90%;
+}
+
+.a_box {
+    height: 450px;
+}
+
+#box1 {
+    min-width: 370px;
+}
+
+#box2 {
+    max-width: 600px;
+}
+
+
+.a_box .photo {
+    width: 340px;
+    height: 120%;
+    min-width: 340px;
+}
+
+.photo {
+    background-image: url('../assets/images/photo1.JPEG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.a_box .info {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 10px;
+}
+
+.a_box .info h5 {
+    color: rgb(0, 153, 255);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+.a_box .info span {
+    padding-left: 8px;
+}
+
+.a_box .info h3 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -1.5px;;
+}
+
+.a_box .info p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+#box2 .i_box i {
+    position: relative;
+    top: -40px;
+    font-size: 100px;
+    text-shadow: 0px 5px 10px rgb(255, 219, 219);
+    color: rgba(255, 255, 255, 0.144);
+    animation: slideAnimation ease-in-out 65s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideAnimation {
+    0% {
+        opacity: 0;
+        left: -250px;
+    }
+    5% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+        left: 200px;
+    }
+    75% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        left: -180px;
+    }
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 952px) {
+    .About {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 93.5vh;
+    }
+    .row {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    #box1 {
+        margin: 0 auto;
+    }
+
+    #box2 {
+        align-content: flex-start;
+        margin-top: 65px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .a_box .photo {
+        padding-left: 10px;
+        width: 340px;
+        height: 120%;
+    }
+
+    .a_box .info {
+        width: 100%;
+    }
+
+    #box2 .i_box i {
+        animation: slideAnimation ease-in-out 60s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    }
+}

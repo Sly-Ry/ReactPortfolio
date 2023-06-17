@@ -1,0 +1,149 @@
+.home_page {
+  margin:  0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.home_page h1 {
+  margin-top: 300px;
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 1px 7px rgb(126, 126, 126);
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    color: transparent;
+  }
+  55% {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    opacity: 0;
+    color: transparent;
+  }
+}
+
+.home_page h2 {
+  position: absolute;
+  top: 200px;
+  padding-right: 55px;
+  width: auto;
+  height: auto;
+  font-size: 25rem;
+  font-weight: bold;
+  letter-spacing: 2rem;
+  animation: backAnimation ease-in-out 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+@keyframes backAnimation {
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;    
+  }
+  50% {
+    opacity: .9px;
+    text-shadow: 0px 0px 10px rgba(245, 193, 202, 0.205);
+  }
+  100% {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    letter-spacing: -4rem;
+    text-shadow: -12px 0px 0px rgb(224, 177, 185);
+  }
+}
+
+.home_page p {
+  position: absolute;
+  width: auto;
+  height: auto;
+  font-size: 4rem;
+  font-weight: bold;
+  animation: talentAnimation ease-in-out 6.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 0;
+}
+
+@keyframes talentAnimation {
+  0% {
+    opacity: 0;
+    color: transparent;
+    top: 0px;
+  }
+  65% {
+    opacity: 0;
+    color: transparent;
+    text-shadow: 0px 2px 5px rgba(255, 192, 203, 0.479);
+  }
+  100% {
+    opacity: 1;
+    color: white;
+    text-shadow: 0px 2px 0px rgba(206, 156, 164, 0.801);
+    top: 590px;
+  }
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 952px) {
+    
+  .home_page h2 {
+    top: 250px;
+    font-size: 15rem;
+    padding-right: 35px;
+  }
+
+  @keyframes backAnimation {
+    0% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+      
+    }
+    50% {
+      opacity: .9px;
+      text-shadow: 0px 0px 10px rgba(245, 193, 202, 0.205);
+    }
+    100% {
+      opacity: 1;
+      color: rgb(255, 255, 255);
+      letter-spacing: -2.4rem;
+      text-shadow: -12px 0px 0px rgb(224, 177, 185);
+    }
+  }
+
+  .home_page p {
+    font-size: 3.2rem;
+  }
+  
+  @keyframes talentAnimation {
+    0% {
+      opacity: 0;
+      color: transparent;
+      top: 0px;
+    }
+    65% {
+      opacity: 0;
+      color: transparent;
+      text-shadow: 0px 2px 5px rgba(255, 192, 203, 0.479);
+    }
+    100% {
+      opacity: 1;
+      color: white;
+      text-shadow: 0px 2px 0px rgba(206, 156, 164, 0.801);
+      top: 490px;
+    }
+  }
+}
