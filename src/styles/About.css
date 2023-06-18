@@ -1,11 +1,11 @@
 .About {
-    padding-top: 100px;
+    padding-top: 50px;
     height: 75vh;
     backdrop-filter: blur(2.5px);
 }
 
 .about_box .row {
-    margin: 100px auto;
+    margin: 0 auto;
     margin-left: -50px;
     width: 90%;
 }
@@ -44,7 +44,7 @@
 }
 
 .a_box .info h5 {
-    color: rgb(0, 153, 255);
+    color: rgb(48, 0, 138);
     font-size: 18px;
     font-weight: bold;
     letter-spacing: -3px;
@@ -112,6 +112,7 @@
     }
     
     .about_box .row {
+        
         flex-direction: column;
         margin-left: 20px;
     }

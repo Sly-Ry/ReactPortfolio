@@ -174,13 +174,29 @@ header {
       position: absolute;
       top: 0px;
       z-index: 9999;
+      animation: titleInAnimation ease .5s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes titleInAnimation {
+      0% {
+        opacity: 0;
+        left: 30%;
+        color: transparent;
+    
+      }
+      100% {
+        opacity: 1;
+        left: 40%;
+        color: rgb(115, 97, 128);
+      }
     }
 
     .menu_container .logo h1 {
       font-size: 4rem;
       font-weight: bold;
       letter-spacing: -.65rem;
-      color: rgb(115, 97, 128);
     }
 
     .dropdown_menu {

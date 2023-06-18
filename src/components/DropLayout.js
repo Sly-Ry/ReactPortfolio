@@ -28,7 +28,6 @@ export default function DropLayout() {
             </div>
 
             <div className={`dropdown_menu ${open? 'active' : 'inactive'}`}>
-                
                 <li>
                     <NavLink to="/">HOME</NavLink>
                 </li>
