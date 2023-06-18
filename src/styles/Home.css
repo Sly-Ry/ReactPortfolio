@@ -147,3 +147,55 @@
     }
   }
 }
+
+@media (max-width: 560px) {
+    
+  .home_page h2 {
+    top: 350px;
+    font-size: 10rem;
+    padding-right: 35px;
+  }
+
+  @keyframes backAnimation {
+    0% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+      
+    }
+    50% {
+      opacity: .9px;
+      text-shadow: 0px 0px 10px rgba(245, 193, 202, 0.205);
+    }
+    100% {
+      opacity: 1;
+      color: rgb(255, 255, 255);
+      letter-spacing: -1.6rem;
+      text-shadow: -12px 0px 0px rgb(224, 177, 185);
+    }
+  }
+
+  .home_page p {
+    font-size: 2.7rem;
+  }
+  
+  @keyframes talentAnimation {
+    0% {
+      opacity: 0;
+      color: transparent;
+      top: 0px;
+    }
+    65% {
+      opacity: 0;
+      color: transparent;
+      text-shadow: 0px 2px 5px rgba(255, 192, 203, 0.479);
+    }
+    100% {
+      opacity: 1;
+      color: white;
+      text-shadow: 0px 2px 0px rgba(206, 156, 164, 0.801);
+      top: 490px;
+    }
+  }
+}
