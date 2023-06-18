@@ -1,4 +1,4 @@
-import { useOutletContext, useParams } from "react-router-dom"
+import { useParams } from "react-router-dom"
 
 export function Project() {
     const { id } = useParams();

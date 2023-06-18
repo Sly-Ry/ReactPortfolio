@@ -173,6 +173,7 @@ header {
     .menu_container .logo {
       position: absolute;
       top: 0px;
+      z-index: 9999;
     }
 
     .menu_container .logo h1 {

@@ -1,0 +1,89 @@
+.Contact {
+    width: 70%;
+    padding: 60px;
+    border-radius: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(2.5px);
+}
+
+.col-md-7 {
+    padding: 20px;
+}
+
+.col-md-7 label {
+    color: rgba(38, 30, 78, 0.74);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-md-7 .form-control {
+    height: 45px;
+    background: transparent;
+    color: rgb(23, 15, 71);
+    font-size: 16px;
+    box-sizing: none !important;
+    border: 2px solid rgba(69, 60, 100, 0.589);
+    box-shadow: none;
+    transition: box-shadow .2s ease-in-out;
+}
+
+.col-md-7 .form-control:focus {
+    border: 2px solid rgb(255, 235, 210);
+    box-shadow: 0px 1px 10px rgb(253, 228, 255);
+    outline: none !important;
+}
+
+.c_box {
+    background-color: rgba(69, 60, 100, 0.589);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    word-break: break-all;
+}
+
+
+.col-md-7 button {
+    background-color: rgba(69, 60, 100, 0.356);
+    border: 2px solid rgba(69, 60, 100, 0.589);
+    color: rgba(38, 30, 78, 0.74);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.col-md-7 button:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+    color: rgb(23, 15, 71);
+    border: 2px solid rgb(255, 235, 210);
+}
+
+.col-md-7 button:focus {
+    background-color: transparent;
+    color: rgb(255, 235, 210);
+    outline: none !important;
+    border: 2px solid rgb(255, 235, 210);
+    box-shadow: none;
+}
+
+.c_box .bi {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.c_info {
+    font-size: 18px;
+    padding-left: 19px;
+    margin-bottom: -20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Contact {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+} 
