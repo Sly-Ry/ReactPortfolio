@@ -1,5 +1,5 @@
 .Contact {
-    width: 80%;
+    width: 90%;
     padding: 60px;
     border-radius: 0;
     position: absolute;
@@ -10,13 +10,17 @@
 }
 
 .col-md-7 {
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 17px 0 0 17px;
     padding: 20px;
 }
 
 .col-md-7 label {
     color: rgba(38, 30, 78, 0.74);
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-bottom: -10px;
+    letter-spacing: -2px;
 }
 
 .col-md-7 .form-control {
@@ -25,12 +29,14 @@
     color: rgb(23, 15, 71);
     font-size: 16px;
     box-sizing: none !important;
-    border: 2px solid rgba(69, 60, 100, 0.589);
+    border: none;
+    border-bottom: 2px solid rgba(69, 60, 100, 0.589);
     box-shadow: none;
     transition: box-shadow .2s ease-in-out;
 }
 
 .col-md-7 .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.623);
     border: 2px solid rgb(255, 235, 210);
     box-shadow: 0px 1px 10px rgb(253, 228, 255);
     outline: none !important;
@@ -38,7 +44,7 @@
 
 .c_box {
     background-color: rgba(69, 60, 100, 0.589);
-    border-radius: 15px;
+    border-radius: 0 17px 17px 0;
     padding: 20px;
     color: rgb(255, 255, 255);
     word-break: break-all;
@@ -59,12 +65,30 @@
     border: 2px solid rgb(255, 235, 210);
 }
 
-.col-md-7 button:focus {
+.btn-primary:focus,
+.btn-primary:active{
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.btn-primary:focus {
     background-color: transparent;
     color: rgb(255, 235, 210);
-    outline: none !important;
     border: 2px solid rgb(255, 235, 210);
-    box-shadow: none;
+}
+
+
+.icon_envelope:hover .bi:before {
+    content: "\F32D";
+}
+
+.icon_linkedin:hover .bi:before {
+    content: "\F406";
+}
+
+
+.icon_person:hover .bi:before {
+    content: "\F8C9";
 }
 
 .c_box .bi {
@@ -78,12 +102,24 @@
     margin-bottom: -20px;
 }
 
+@media only screen and (max-width: 767px) {
+    
+    .col-md-7 {
+        border-radius: 17px 17px 0 0;
+    } 
+
+    .c_box {
+        border-radius:  0 0 17px 17px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
-    .Contact {
+    /* .Contact {
         width: 100%;
         position: absolute;
         left: 50%;
         top: 50%;
-    }
+    }*/
+
 } 

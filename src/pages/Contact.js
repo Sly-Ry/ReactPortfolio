@@ -38,7 +38,9 @@ export function Contact() {
                         <hr/>
                         <div className="mt-4">
                             <div className="d-flex">
-                                <i className="bi bi-envelope-fill"></i>
+                                <div className='icon_envelope'>
+                                    <i className="bi bi-envelope-fill"></i>
+                                </div>
                                 <div className='c_info'>
                                     <label htmlFor="email" className="email">
                                         Email: 
@@ -51,7 +53,9 @@ export function Contact() {
                         </div>
                         <div className="mt-4">
                             <div className="d-flex">
-                                <i className="bi bi-linkedin"></i>
+                                <div className='icon_linkedin'>
+                                    <i className="bi bi-linkedin"></i>
+                                </div>
                                 <div className='c_info'>
                                     <label htmlFor="email" className="email">
                                         LinkedIn
@@ -64,7 +68,9 @@ export function Contact() {
                         </div>
                         <div className="mt-4">
                             <div className="d-flex">
-                                <i className="bi bi-person-vcard-fill"></i>
+                                <div className='icon_person'>
+                                    <i className="bi bi-person-vcard-fill"></i>
+                                </div>
                                 <div className='c_info'>
                                     <label htmlFor="email" className="email">
                                         Portfolio 
