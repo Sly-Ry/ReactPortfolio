@@ -1,0 +1,37 @@
+.Projects {
+    height: 96vh;
+    backdrop-filter: blur(2.5px);
+    overflow: auto;
+}
+
+.Projects::-webkit-scrollbar {
+    width: 1em;
+}
+
+.container {
+    margin: 70px -50px 0 0;
+}
+
+.proj_row {
+    width: 100%;
+}
+
+.proj_row:last-child {
+    padding-bottom: 170px;
+}
+
+.proj {
+    background-color: rgba(255, 255, 255, 0.329);
+    box-shadow: inset 0 1px 8px rgb(255, 238, 216);
+    border-radius: 20px;
+}
+
+.proj img {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        margin-right: -50px;
+    }
+}

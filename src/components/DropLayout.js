@@ -28,18 +28,20 @@ export default function DropLayout() {
             </div>
 
             <div className={`dropdown_menu ${open? 'active' : 'inactive'}`}>
-                <li>
-                    <NavLink to="/">HOME</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/about">ABOUT</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/projects">PROJECTS</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/contact">CONTACT</NavLink>
-                </li>
+                <ul>
+                    <li>
+                        <NavLink to="/">HOME</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about">ABOUT</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/projects">PROJECTS</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/contact">CONTACT</NavLink>
+                    </li>
+                </ul>
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ export function About() {
             <div className="About d-grid">
                 <div className="about_box mx-auto my-auto w-100 p-2 d-grid">
 
-                    <div className="row row-col-2 mt-5 p-3 d-flex align-items-center justify-content-center">
+                    <div className="row row-col-2 p-3 d- align-items-center">
 
                         <div id="box1" className="a_box col-6 d-flex  align-items-center justify-content-end">
                             <div className="photo"></div>

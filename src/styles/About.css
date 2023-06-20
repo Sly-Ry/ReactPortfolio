@@ -1,12 +1,14 @@
 .About {
-    padding-top: 50px;
-    height: 75vh;
+    height: 95vh;
     backdrop-filter: blur(2.5px);
+    overflow: auto;
+}
+
+.About::-webkit-scrollbar {
+    width: 1em;
 }
 
 .about_box .row {
-    margin: 0 auto;
-    margin-left: -50px;
     width: 90%;
 }
 
@@ -105,33 +107,22 @@
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 952px) {
-    .About {
-        overflow-y: auto;
-        overflow-x: hidden;
-        height: 93.5vh;
-    }
     
     .about_box .row {
-        
         flex-direction: column;
         margin-left: 20px;
     }
 
-    #box1 {
-        margin: 0 auto;
-    }
-
     #box2 {
         align-content: flex-start;
-        margin-top: 65px;
+        margin-top: 10px;
         margin-left: 10px;
         width: 100%;
     }
 
     .a_box .photo {
         padding-left: 10px;
-        width: 340px;
-        height: 120%;
+        height: 100%;
     }
 
     .a_box .info {

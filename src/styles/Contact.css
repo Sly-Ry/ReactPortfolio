@@ -9,13 +9,13 @@
     backdrop-filter: blur(2.5px);
 }
 
-.col-md-7 {
+.con_box {
     background-color: rgba(0, 0, 0, 0.144);
     border-radius: 17px 0 0 17px;
     padding: 20px;
 }
 
-.col-md-7 label {
+.con_box label {
     color: rgba(38, 30, 78, 0.74);
     font-size: 25px;
     padding-left: 10px;
@@ -23,7 +23,7 @@
     letter-spacing: -2px;
 }
 
-.col-md-7 .form-control {
+.con_box .form-control {
     height: 45px;
     background: transparent;
     color: rgb(23, 15, 71);
@@ -35,7 +35,7 @@
     transition: box-shadow .2s ease-in-out;
 }
 
-.col-md-7 .form-control:focus {
+.con_box .form-control:focus {
     background-color: rgba(255, 255, 255, 0.623);
     border: 2px solid rgb(255, 235, 210);
     box-shadow: 0px 1px 10px rgb(253, 228, 255);
@@ -51,7 +51,7 @@
 }
 
 
-.col-md-7 button {
+.con_box button {
     background-color: rgba(69, 60, 100, 0.356);
     border: 2px solid rgba(69, 60, 100, 0.589);
     color: rgba(38, 30, 78, 0.74);
@@ -59,7 +59,7 @@
     font-weight: bold;
 }
 
-.col-md-7 button:hover {
+.con_box button:hover {
     background-color: rgba(255, 255, 255, 0.384);
     color: rgb(23, 15, 71);
     border: 2px solid rgb(255, 235, 210);
@@ -104,7 +104,7 @@
 
 @media only screen and (max-width: 767px) {
     
-    .col-md-7 {
+    .con_box {
         border-radius: 17px 17px 0 0;
     } 
 
@@ -112,14 +112,3 @@
         border-radius:  0 0 17px 17px;
     }
 }
-
-
-@media only screen and (max-width: 600px) {
-    /* .Contact {
-        width: 100%;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-    }*/
-
-} 

@@ -6,7 +6,7 @@ export function Contact() {
             
             <div className="Contact container">
                 <div className="row_box row">
-                    <div className="col-md-7">
+                    <div className="con_box col-md-7">
                         <div className="mb-3">
                             <label htmlFor="name" className="form-label">
                                 Name
