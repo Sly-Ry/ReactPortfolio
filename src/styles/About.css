@@ -1,5 +1,5 @@
 .About {
-    height: 95vh;
+    height: 90vh;
     backdrop-filter: blur(2.5px);
     overflow: auto;
 }
@@ -10,6 +10,7 @@
 
 .about_box .row {
     width: 90%;
+    margin-bottom: 70px;
 }
 
 .a_box {

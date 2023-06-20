@@ -8,8 +8,8 @@
     width: 1em;
 }
 
-.container {
-    margin: 70px -50px 0 0;
+.Projects .container {
+    margin: 70px 0;
 }
 
 .proj_row {
@@ -31,7 +31,7 @@
 }
 
 @media screen and (max-width: 991px) {
-    .container {
+    .Projects .container {
         margin-right: -50px;
     }
 }

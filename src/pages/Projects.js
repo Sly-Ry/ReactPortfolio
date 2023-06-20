@@ -4,7 +4,6 @@ import photo from '../assets/images/keys1.jpg'
 export function Projects() {
     return (
         <>
-
             <div className="Projects d-flex justify-content-center">
                 <div className="container">
                     <div className="proj_row row g-4">
