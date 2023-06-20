@@ -23,30 +23,33 @@ export function Contact() {
                         {/* Disable Captcha */}
                         <input type='hidden' name="_captcha" value={'false'}/>
 
+                        {/* Submitted Page */}
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/>
+
                         <div className="c_box col-12 col-md-7">
                             <div className="mb-3">
                                 <label htmlFor="name" className="form-label">
                                     Name
                                 </label>
-                                <input type="text" className="form-control" name="Name" id="name" placeholder="Enter your name"/>
+                                <input type="text" className="form-control" name="name" id="name" placeholder="Enter your name" required/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">
                                     Email
                                 </label>
-                                <input type="email" className="form-control" name="Email" id="email" placeholder="Enter your email"/>
+                                <input type="email" className="form-control" name="email" id="email" placeholder="Enter your email" required/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="number" className="form-label">
-                                    Contact Number
+                                    Phone
                                 </label>
-                                <input type="number" className="form-control" name="Number" id="number" placeholder="#" onWheel={disableScrolling}/>
+                                <input type="number" className="form-control" name="phone&nbsp;number" id="number" placeholder="#" onWheel={disableScrolling}/>
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="message" className="form-label">
-                                    Message
+                                <label htmlFor="comment" className="form-label">
+                                    Comment
                                 </label>
-                                <textarea className="form-control" name='Message' id="message" rows="7"></textarea>
+                                <textarea className="form-control" name='comment' id="comment" rows="7"></textarea>
                             </div>
                             <button type='submit' className='btn btn-primary'>Send</button> 
                         </div>
