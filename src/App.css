@@ -16,7 +16,7 @@ body {
 }
 
 .active {
-  color: rgba(75, 64, 94, 0.473);
+  color: rgba(64, 75, 94, 0.171);
   cursor: default;
 }
 
@@ -25,6 +25,9 @@ li {
 }
 
 a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   font-size: 1.15rem;
   color: rgb(122, 89, 141);
@@ -32,12 +35,12 @@ a {
 }
 
 a:hover {
-  color: rgba(173, 141, 199, 0.938);
-  text-decoration: underline;
+  text-shadow: 0 0 7px white;
+  color: rgba(102, 76, 124, 0.938);
 }
 
 a.active:hover {
-  color: rgba(64, 75, 94, 0.473);
+  color: rgba(64, 75, 94, 0.171);
   text-shadow: none;
   text-decoration: none;
 }
@@ -88,7 +91,6 @@ header {
 
   /* DROPDOWN LAYOUT */
   a:hover {
-    padding: 0px 70px;
     background-color: rgba(135, 78, 173, 0.356);
     color: rgb(255, 255, 255);
     text-decoration: none;
