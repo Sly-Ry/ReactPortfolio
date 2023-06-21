@@ -93,7 +93,7 @@ export function Contact() {
                                         <label htmlFor="email" className="email">
                                             Portfolio:
                                         </label>
-                                        <p>hello</p>
+                                        <p>https://sly-ry.github.io/React-Portfolio</p>
                                     </div>
                                 </div>
                                 <hr/>
