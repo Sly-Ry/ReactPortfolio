@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.19d8621c.css",
-    "main.js": "/React-Portfolio/static/js/main.6ef8d16d.js",
-    "static/media/brew-haus.jpg": "/React-Portfolio/static/media/brew-haus.e3dc4e6c9ca46fb33aa4.jpg",
-    "static/media/photo1.JPEG": "/React-Portfolio/static/media/photo1.6b5b3959d906332282de.JPEG",
-    "static/media/pickles.jpg": "/React-Portfolio/static/media/pickles.13d2347717300ead12b0.jpg",
-    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "static/media/weather-austin.jpg": "/React-Portfolio/static/media/weather-austin.6241571f67b7300f1c18.jpg",
-    "index.html": "/React-Portfolio/index.html",
-    "main.19d8621c.css.map": "/React-Portfolio/static/css/main.19d8621c.css.map",
-    "main.6ef8d16d.js.map": "/React-Portfolio/static/js/main.6ef8d16d.js.map"
+    "main.css": "/ReactPortfolio/static/css/main.35ff2a13.css",
+    "main.js": "/ReactPortfolio/static/js/main.42ac1ed1.js",
+    "static/media/brew-haus.jpg": "/ReactPortfolio/static/media/brew-haus.e3dc4e6c9ca46fb33aa4.jpg",
+    "static/media/photo1.JPEG": "/ReactPortfolio/static/media/photo1.6b5b3959d906332282de.JPEG",
+    "static/media/pickles.jpg": "/ReactPortfolio/static/media/pickles.13d2347717300ead12b0.jpg",
+    "static/media/bootstrap-icons.woff?": "/ReactPortfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/ReactPortfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/weather-austin.jpg": "/ReactPortfolio/static/media/weather-austin.6241571f67b7300f1c18.jpg",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.35ff2a13.css.map": "/ReactPortfolio/static/css/main.35ff2a13.css.map",
+    "main.42ac1ed1.js.map": "/ReactPortfolio/static/js/main.42ac1ed1.js.map"
   },
   "entrypoints": [
-    "static/css/main.19d8621c.css",
-    "static/js/main.6ef8d16d.js"
+    "static/css/main.35ff2a13.css",
+    "static/js/main.42ac1ed1.js"
   ]
 }
