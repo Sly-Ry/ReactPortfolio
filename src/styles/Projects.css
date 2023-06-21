@@ -9,12 +9,9 @@
 }
 
 .Projects .container {
-    margin: 70px 0;
+    margin: auto 0;
 }
 
-.proj_row {
-    width: 100%;
-}
 
 .proj_row:last-child {
     padding-bottom: 170px;
@@ -23,19 +20,37 @@
 .proj {
     min-height: 450px;
     background-color: rgba(255, 255, 255, 0.329);
-    box-shadow: inset 0 1px 8px rgb(255, 238, 216);
+    box-shadow: none;
     border-radius: 20px;
 }
+
 .card-img-top {
-    min-height: 215px;
+    min-height: 235px;
 }
 
 .proj img {
     border-radius: 10px;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title i {
+    --fa-primary-color: #50866d;
+    --fa-secondary-color: #50866d;
+}
+
+@media screen and (max-height: 1200px) {
+    .card-img-top {
+        min-height: 195px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .Projects .container {
-        margin-right: -50px;
+        margin-right: -20px;
     }
 }

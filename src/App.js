@@ -1,7 +1,6 @@
 import { Routes, Route} from 'react-router-dom';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
-// import { ProjectRoutes } from './ProjectRoutes'
 import { Projects } from './pages/Projects'
 import { Contact } from './pages/Contact'
 import { Error } from './pages/Error';

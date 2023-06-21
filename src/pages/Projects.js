@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import '../styles/Projects.css'
 import photo1 from '../assets/images/pickles.jpg'
 import photo2 from '../assets/images/weather-austin.jpg'
@@ -15,7 +17,10 @@ export function Projects() {
                                     <img src={photo1} alt="Assorted variety of pickles." className='card-img-top'/>
                                 </a>
                                 <div className="card-body">
-                                    <h4 className="card-title">Picklers' Pickles</h4>
+                                    <div className="card-title">
+                                        <h4>Picklers' Pickles</h4>
+                                        <FontAwesomeIcon icon={faEnvelope} />
+                                    </div>
                                     <p className="card-text">A product landing page created using HTML and CSS</p>
                                     <div className="stack">
                                         
@@ -29,7 +34,7 @@ export function Projects() {
                                     <img src={photo2} alt="A lightning strike across the sky in Austin, TX." className='card-img-top'/>
                                 </a>
                                 <div className="card-body">
-                                    <h4 className="card-title">Keys Galore</h4>
+                                    <h4 className="card-title">WorldWide Weather</h4>
                                     <p className="card-text">A weather dashboard that displays the current and 5-Days forecast of a searched city using the server-side API retrived from the Open Weather API.</p>
                                 </div>
                             </div>
