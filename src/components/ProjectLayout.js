@@ -13,6 +13,7 @@ export function ProjectLayout() {
                 <div className="proj_row row g-4">
                     <div className="col-12 col-md-6 col-lg-4">
                         <Project 
+                            id="pickle-card"
                             href="https://sly-ry.github.io/Product-Landing-Page/"
                             src={photo1}
                             alt="Assorted variety of pickles"
@@ -41,6 +42,7 @@ export function ProjectLayout() {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
                         <Project 
+                            id="food-card"
                             href="https://sly-ry.github.io/Product-Landing-Page/"
                             src={photo3}
                             alt="A cold glass of beer"
