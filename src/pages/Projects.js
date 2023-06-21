@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faJar, faCloudSun, faUtensils, faCode } from '@fortawesome/free-solid-svg-icons'
+
 import '../styles/Projects.css'
 import photo1 from '../assets/images/pickles.jpg'
 import photo2 from '../assets/images/weather-austin.jpg'
@@ -17,13 +18,18 @@ export function Projects() {
                                     <img src={photo1} alt="Assorted variety of pickles." className='card-img-top'/>
                                 </a>
                                 <div className="card-body">
-                                    <div className="card-title">
+                                    <div className="card-title d-flex align-items-center justify-content">
+                                        <FontAwesomeIcon id='jar' className='i' icon={faJar} />
                                         <h4>Picklers' Pickles</h4>
-                                        <FontAwesomeIcon icon={faEnvelope} />
                                     </div>
                                     <p className="card-text">A product landing page created using HTML and CSS</p>
-                                    <div className="stack">
-                                        
+                                    <div className="stack d-flex align-items-center justify-content-center">
+                                        <h5>React</h5>
+                                        <h5>Bootstrap</h5>
+                                    </div>
+                                    <div className="card-foot d-flex align-items-center justify-content-center">
+                                        <h4>Code</h4>
+                                        <FontAwesomeIcon id='foot' icon={faCode} />
                                     </div>
                                 </div>
                             </div>
@@ -34,8 +40,19 @@ export function Projects() {
                                     <img src={photo2} alt="A lightning strike across the sky in Austin, TX." className='card-img-top'/>
                                 </a>
                                 <div className="card-body">
-                                    <h4 className="card-title">WorldWide Weather</h4>
-                                    <p className="card-text">A weather dashboard that displays the current and 5-Days forecast of a searched city using the server-side API retrived from the Open Weather API.</p>
+                                    <div className='card-title d-flex align-items-center justify-content'>
+                                        <FontAwesomeIcon id="cloud" className='i' icon={faCloudSun} />
+                                        <h4>WorldWide Weather</h4>
+                                    </div>
+                                    <p className="card-text">A weather dashboard that displays the current and 5-Days forecast of a searched city.</p>
+                                    <div className="stack d-flex align-items-center justify-content-center">
+                                        <h5>React</h5>
+                                        <h5>Bootstrap</h5>
+                                    </div>
+                                    <div className="card-foot d-flex align-items-center justify-content-center">
+                                        <h4>Code</h4>
+                                        <FontAwesomeIcon id='foot' icon={faCode} />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -45,8 +62,19 @@ export function Projects() {
                                     <img src={photo3} alt="A collection of personalized keys." className='card-img-top'/>
                                 </a>
                                 <div className="card-body">
-                                    <h4 className="card-title">Food Festival</h4>
+                                    <div className="card-title d-flex align-items-center justify-content">
+                                        <FontAwesomeIcon id='food' className='i' icon={faUtensils} />
+                                        <h4>Food Festival</h4>
+                                    </div>
                                     <p className="card-text">Food Festival is a PWA that promotes and sells tickets for the annual Food Festival Event.</p>
+                                    <div className="stack d-flex align-items-center justify-content-center">
+                                        <h5>React</h5>
+                                        <h5>Bootstrap</h5>
+                                    </div>
+                                    <div className="card-foot d-flex align-items-center justify-content-center">
+                                        <h4>Code</h4>
+                                        <FontAwesomeIcon id='foot' icon={faCode} />
+                                    </div>
                                 </div>
                             </div>
                         </div>

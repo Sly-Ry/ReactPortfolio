@@ -24,10 +24,6 @@
     border-radius: 20px;
 }
 
-.card-img-top {
-    min-height: 235px;
-}
-
 .proj img {
     border-radius: 10px;
 }
@@ -38,14 +34,65 @@
     align-items: center;
 }
 
-.card-title i {
-    --fa-primary-color: #50866d;
-    --fa-secondary-color: #50866d;
+.card-title h4 {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#jar, 
+#cloud, 
+#food {
+    rotate: -20deg;
+    margin-right: -15px;
+    padding-bottom: 4px;
+    font-size: 3rem;
+}
+
+#jar {
+    color: rgba(0, 99, 0, 0.164);
+}
+
+#cloud {
+    margin-right: -25px;
+    margin-left: 0px;
+    color: rgba(0, 0, 199, 0.178);
+}
+
+#food {
+    color: rgba(173, 63, 0, 0.274)
+}
+
+.card-body h5 {
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-body p {
+    background-color: white;
+    height: 100px;
+}
+
+.card-foot {
+    margin-top: 20px;
+} 
+
+#foot {
+    position: absolute;
+    font-size: 3.9em;
+    color: rgba(0, 0, 0, 0.158);
+    padding-bottom: 10px;
+    z-index: -1;
+}
+
+.card-foot h4 {
+    font-size: 1.4em;
+    z-index: 1;
 }
 
 @media screen and (max-height: 1200px) {
     .card-img-top {
-        min-height: 195px;
+        min-height: 100px;
     }
 }
 
