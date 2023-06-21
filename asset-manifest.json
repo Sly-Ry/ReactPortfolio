@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.35ff2a13.css",
-    "main.js": "/ReactPortfolio/static/js/main.42ac1ed1.js",
+    "main.js": "/ReactPortfolio/static/js/main.2a2fe141.js",
     "static/media/brew-haus.jpg": "/ReactPortfolio/static/media/brew-haus.e3dc4e6c9ca46fb33aa4.jpg",
     "static/media/photo1.JPEG": "/ReactPortfolio/static/media/photo1.6b5b3959d906332282de.JPEG",
     "static/media/pickles.jpg": "/ReactPortfolio/static/media/pickles.13d2347717300ead12b0.jpg",
@@ -10,10 +10,10 @@
     "static/media/weather-austin.jpg": "/ReactPortfolio/static/media/weather-austin.6241571f67b7300f1c18.jpg",
     "index.html": "/ReactPortfolio/index.html",
     "main.35ff2a13.css.map": "/ReactPortfolio/static/css/main.35ff2a13.css.map",
-    "main.42ac1ed1.js.map": "/ReactPortfolio/static/js/main.42ac1ed1.js.map"
+    "main.2a2fe141.js.map": "/ReactPortfolio/static/js/main.2a2fe141.js.map"
   },
   "entrypoints": [
     "static/css/main.35ff2a13.css",
-    "static/js/main.42ac1ed1.js"
+    "static/js/main.2a2fe141.js"
   ]
 }
