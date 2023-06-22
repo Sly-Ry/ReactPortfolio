@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export function Project({href, src, alt, iconId, icon, title, text, stack1, stack2, code}) {
+export function Project({href, src, alt, iconId, icon, title, text, stack1, stack2, code, codeHref}) {
     return (
         <div className="proj card">
             <a href={href} className="image">
@@ -17,7 +17,9 @@ export function Project({href, src, alt, iconId, icon, title, text, stack1, stac
                     <h5>{stack2}</h5>
                 </div>
                 <div className="card-foot d-flex align-items-center justify-content-center">
-                    <h4>Code</h4>
+                    <a href={codeHref}>
+                        <h4>Code</h4>
+                    </a>
                     <FontAwesomeIcon id='foot' icon={code} />
                 </div>
             </div>

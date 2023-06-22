@@ -4,7 +4,7 @@ import { About } from './pages/About';
 import { Projects } from './pages/Projects'
 import { Contact } from './pages/Contact'
 import { Error } from './pages/Error';
-import './App.css';
+import './styles/App.css';
 import { NavLayout } from './components/NavLayout';
 
 export default function App() {

@@ -4,6 +4,14 @@
     overflow: auto;
 }
 
+.card-foot a {
+    color: rgb(59, 59, 59);
+}
+
+.card-foot a:hover {
+    background-color: transparent;
+}
+
 .Projects::-webkit-scrollbar {
     width: 1em;
 }
@@ -48,26 +56,20 @@
 
 #jar, 
 #cloud, 
-#food {
+#calculator {
     rotate: -20deg;
     margin-right: -15px;
+    margin-top: -10px;
     padding-bottom: 4px;
-    font-size: 3rem;
-}
-
-#jar {
-    color: rgba(0, 99, 0, 0.164);
+    font-size: 3.3rem;
+    color: rgba(0, 0, 0, 0.137);
 }
 
 #cloud {
     margin-right: -25px;
     margin-left: 0px;
-    color: rgba(0, 0, 199, 0.178);
 }
 
-#food {
-    color: rgba(173, 63, 0, 0.274)
-}
 
 .card-body h5 {
     padding: 0 15px;

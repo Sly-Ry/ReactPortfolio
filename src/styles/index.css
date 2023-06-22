@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  background: #111;
+  background-image: url('https://source.unsplash.com/v9bnfMCyKbg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
