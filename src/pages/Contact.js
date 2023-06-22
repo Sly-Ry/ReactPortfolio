@@ -24,7 +24,7 @@ export function Contact() {
                         <input type='hidden' name="_captcha" value={'false'}/>
 
                         {/* Submitted Page */}
-                        <input type="hidden" name="_next" value="http://localhost:3000/ReactPortfolio/submit"/>
+                        <input type="hidden" name="_next" value="https://sly-ry.github.io/ReactPortfolio/submit"/>
 
                         <div className="c_box col-12 col-md-7">
                             <div className="mb-3">
