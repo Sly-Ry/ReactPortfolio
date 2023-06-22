@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.35ff2a13.css",
-    "main.js": "/ReactPortfolio/static/js/main.2a2fe141.js",
-    "static/media/brew-haus.jpg": "/ReactPortfolio/static/media/brew-haus.e3dc4e6c9ca46fb33aa4.jpg",
+    "main.css": "/ReactPortfolio/static/css/main.b4e08ec7.css",
+    "main.js": "/ReactPortfolio/static/js/main.fd6f4c8d.js",
+    "static/media/pickleSite.png": "/ReactPortfolio/static/media/pickleSite.93d759194cc073132f1a.png",
+    "static/media/calculator.png": "/ReactPortfolio/static/media/calculator.b138fe1a6949410d974c.png",
     "static/media/photo1.JPEG": "/ReactPortfolio/static/media/photo1.6b5b3959d906332282de.JPEG",
-    "static/media/pickles.jpg": "/ReactPortfolio/static/media/pickles.13d2347717300ead12b0.jpg",
     "static/media/bootstrap-icons.woff?": "/ReactPortfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/ReactPortfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "static/media/weather-austin.jpg": "/ReactPortfolio/static/media/weather-austin.6241571f67b7300f1c18.jpg",
+    "static/media/quote.png": "/ReactPortfolio/static/media/quote.f9014049f77bfccddac9.png",
     "index.html": "/ReactPortfolio/index.html",
-    "main.35ff2a13.css.map": "/ReactPortfolio/static/css/main.35ff2a13.css.map",
-    "main.2a2fe141.js.map": "/ReactPortfolio/static/js/main.2a2fe141.js.map"
+    "main.b4e08ec7.css.map": "/ReactPortfolio/static/css/main.b4e08ec7.css.map",
+    "main.fd6f4c8d.js.map": "/ReactPortfolio/static/js/main.fd6f4c8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ff2a13.css",
-    "static/js/main.2a2fe141.js"
+    "static/css/main.b4e08ec7.css",
+    "static/js/main.fd6f4c8d.js"
   ]
 }
