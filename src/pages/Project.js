@@ -4,7 +4,12 @@ export function Project({href, src, alt, iconId, icon, title, text, stack1, stac
     return (
         <div className="proj card">
             <a href={href} className="image">
-                <img src={src} alt={alt} className='card-img-top'/>
+                <img
+                    loading='lazy'  
+                    src={src} 
+                    alt={alt} 
+                    className='card-img-top'
+                />
             </a>
             <div className="card-body">
                 <div className="card-title d-flex align-items-center justify-content">

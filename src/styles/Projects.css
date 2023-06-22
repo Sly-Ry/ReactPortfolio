@@ -4,11 +4,7 @@
     overflow: auto;
 }
 
-.card-foot a {
-    color: rgb(59, 59, 59);
-}
-
-.card-foot a:hover {
+.card-foot h4:hover {
     background-color: transparent;
 }
 
@@ -33,7 +29,12 @@
 }
 
 .proj img {
-    border-radius: 10px;
+    border-radius: 5px;
+    opacity: .8
+}
+
+.proj img:hover {
+    opacity: 1
 }
 
 #cloud-card {
@@ -100,9 +101,6 @@
 }
 
 @media screen and (max-height: 1200px) {
-    .proj img {
-        height: auto;
-    }
 
     .card-title h4 {
         font-size: 1.2rem;
@@ -114,4 +112,5 @@
     .Projects .container {
         margin-right: -20px;
     }
+    
 }
