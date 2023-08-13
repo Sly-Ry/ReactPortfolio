@@ -18,8 +18,8 @@ export function ProjectLayout() {
                             href="https://sly-ry.github.io/harper-house/"
                             src={theatre}
                             alt="a woman performing onstage"
-                            iconId="jar"
-                            icon={faJar}
+                            iconId="cloud"
+                            icon={faCloudSun}
                             title="Harper's House"
                             text="A template website for an up-and-coming theatre company."
                             stack1="React"
@@ -27,6 +27,8 @@ export function ProjectLayout() {
                             code={faCode}
                             codeHref="https://github.com/Sly-Ry/harper-house"
                         />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
                         <Project 
                             id="pickle-card"
                             href="https://sly-ry.github.io/Product-Landing-Page/"
@@ -40,21 +42,6 @@ export function ProjectLayout() {
                             stack2="Bootstrap"
                             code={faCode}
                             codeHref="https://github.com/Sly-Ry/Product-Landing-Page"
-                        />
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <Project 
-                            href="https://sly-ry.github.io/random-quote-generator/"
-                            src={photo2}
-                            alt="An inspirational quote."
-                            iconId="cloud"
-                            icon={faCloudSun}
-                            title="Random Quote Generator"
-                            text="A simple random quote generator made with React and Bootstrap with functionality to post generated quote via Twitter and Tumblr."
-                            stack1="React"
-                            stack2="Bootstap"
-                            code={faCode}
-                            codeHref="https://github.com/Sly-Ry/random-quote-generator"
                         />
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
