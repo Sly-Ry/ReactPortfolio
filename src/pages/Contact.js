@@ -1,16 +1,6 @@
 import '../styles/Contact.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
 export function Contact() {
-
-    const disableScrolling = (e) => {
-        e.target.blur()
-
-        e.noScroll()
-
-        setTimeout(() => {
-            e.target.focus()
-        }, 0)
-    }
       
     return (
         <>
@@ -43,7 +33,7 @@ export function Contact() {
                                 <label htmlFor="number" className="form-label">
                                     Phone
                                 </label>
-                                <input type="number" className="form-control" name="phone&nbsp;number" id="number" placeholder="#" onWheel={disableScrolling}/>
+                                <input type="number" className="form-control" name="phone&nbsp;number" id="number" placeholder="#" onWheel={(e) => e.target.blur()}/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="comment" className="form-label">

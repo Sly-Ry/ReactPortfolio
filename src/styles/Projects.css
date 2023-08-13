@@ -37,11 +37,6 @@
     opacity: 1
 }
 
-#cloud-card {
-    background-color: red;
-}
-
-
 .card-body {
     display: flex;
     flex-direction: column;

@@ -25,18 +25,15 @@
     max-width: 600px;
 }
 
-.a_box .photo {
-    width: 340px;
-    height: 120%;
+.a_box img {
+    width: 250px;
+    height: 100%;
     min-width: 340px;
-}
-
-.photo {
-    background-image: url('../assets/images/photo1.JPEG');
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 15px;
 }
+
 
 .a_box .info {
     padding: 20px;
@@ -60,7 +57,7 @@
 .a_box .info h3 {
     font-size: 28px;
     font-weight: bold;
-    letter-spacing: -1.5px;;
+    letter-spacing: -1.5px;
 }
 
 .a_box .info p {
@@ -121,8 +118,7 @@
         width: 100%;
     }
 
-    .a_box .photo {
-        padding-left: 10px;
+    .a_box img {
         height: 100%;
     }
 

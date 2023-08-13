@@ -3,6 +3,7 @@ import { faJar, faCloudSun, faCalculator, faCode } from '@fortawesome/free-solid
 import photo1 from '../assets/images/pickleSite.png'
 import photo2 from '../assets/images/quote.png'
 import photo3 from '../assets/images/calculator.png'
+import theatre from '../assets/images/theatre.jpg'
 
 import { Project } from '../pages/Project'
 
@@ -12,6 +13,20 @@ export function ProjectLayout() {
             <div className="container">
                 <div className="proj_row row g-4">
                     <div className="col-12 col-md-6 col-lg-4">
+                        <Project 
+                            id="theatre-card"
+                            href="https://sly-ry.github.io/harper-house/"
+                            src={theatre}
+                            alt="a woman performing onstage"
+                            iconId="jar"
+                            icon={faJar}
+                            title="Harper's House"
+                            text="A template website for an up-and-coming theatre company."
+                            stack1="React"
+                            stack2="Bootstrap"
+                            code={faCode}
+                            codeHref="https://github.com/Sly-Ry/harper-house"
+                        />
                         <Project 
                             id="pickle-card"
                             href="https://sly-ry.github.io/Product-Landing-Page/"
