@@ -1,7 +1,6 @@
 import { faJar, faCloudSun, faCalculator, faCode } from '@fortawesome/free-solid-svg-icons'
 
 import photo1 from '../assets/images/pickleSite.png'
-import photo2 from '../assets/images/quote.png'
 import photo3 from '../assets/images/calculator.png'
 import theatre from '../assets/images/theatre.jpg'
 
@@ -20,8 +19,8 @@ export function ProjectLayout() {
                             alt="a woman performing onstage"
                             iconId="cloud"
                             icon={faCloudSun}
-                            title="Harper's House"
-                            text="A template website for an up-and-coming theatre company."
+                            title="Harper House"
+                            text="A template website for an up-and-coming theatre company designed for desktop and mobile usage. Equipped with advanced nagivations and optimized onloading for better user experience."
                             stack1="React"
                             stack2="Bootstrap"
                             code={faCode}
