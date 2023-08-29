@@ -1,8 +1,9 @@
-import { faJar, faCloudSun, faCalculator, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faJar, faCloudSun, faCalculator, faCode, faMugHot } from '@fortawesome/free-solid-svg-icons'
 
 import photo1 from '../assets/images/pickleSite.png'
 import photo3 from '../assets/images/calculator.png'
-import theatre from '../assets/images/theatre.jpg'
+import theatre from '../assets/images/theatre.jpg';
+import red from '../assets/images/red.jpg'
 
 import { Project } from '../pages/Project'
 
@@ -11,6 +12,22 @@ export function ProjectLayout() {
         <>
             <div className="container">
                 <div className="proj_row row g-4">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <Project 
+                            id="red-card"
+                            href="https://sly-ry.github.io/red-deck/"
+                            src={red}
+                            alt="a cup of hot coffee"
+                            iconId="mug"
+                            icon={faMugHot}
+                            title="The Red Deck"
+                            text="The main site for reknown cafe company that brews dream to life designed for desktop and mobile optimized for better user experience."
+                            stack1="React"
+                            stack2="Bootstrap"
+                            code={faCode}
+                            codeHref="https://github.com/Sly-Ry/red-deck/"
+                        />
+                    </div>
                     <div className="col-12 col-md-6 col-lg-4">
                         <Project 
                             id="theatre-card"
