@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.f0052729.css",
-    "main.js": "/ReactPortfolio/static/js/main.48ac046f.js",
+    "main.css": "/ReactPortfolio/static/css/main.1636e18c.css",
+    "main.js": "/ReactPortfolio/static/js/main.ad1ff573.js",
     "static/media/theatre.jpg": "/ReactPortfolio/static/media/theatre.a0b56e412aa7847e0870.jpg",
     "static/media/pickleSite.png": "/ReactPortfolio/static/media/pickleSite.93d759194cc073132f1a.png",
     "static/media/calculator.png": "/ReactPortfolio/static/media/calculator.b138fe1a6949410d974c.png",
     "static/media/photo1.jpg": "/ReactPortfolio/static/media/photo1.6b5b3959d906332282de.jpg",
+    "static/media/red.jpg": "/ReactPortfolio/static/media/red.ad5bca43103a7f45e538.jpg",
     "static/media/bootstrap-icons.woff?": "/ReactPortfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/ReactPortfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/ReactPortfolio/index.html",
-    "main.f0052729.css.map": "/ReactPortfolio/static/css/main.f0052729.css.map",
-    "main.48ac046f.js.map": "/ReactPortfolio/static/js/main.48ac046f.js.map"
+    "main.1636e18c.css.map": "/ReactPortfolio/static/css/main.1636e18c.css.map",
+    "main.ad1ff573.js.map": "/ReactPortfolio/static/js/main.ad1ff573.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0052729.css",
-    "static/js/main.48ac046f.js"
+    "static/css/main.1636e18c.css",
+    "static/js/main.ad1ff573.js"
   ]
 }
