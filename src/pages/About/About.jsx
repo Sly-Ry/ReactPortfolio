@@ -1,6 +1,6 @@
-import "../styles/About.css";
+import "./About.css";
 
-import myPhoto from '../assets/images/photo1.jpg'
+import myPhoto from '../../assets/images/photo1.jpg'
 
 export function About() {
     return (
@@ -11,7 +11,7 @@ export function About() {
                     <div className="row row-col-2 d-flex align-items-center">
 
                         <div id="box1" className="a_box col-6 d-flex align-items-center justify-content-end">
-                            <img loading="lazy" src={myPhoto}></img>
+                            <img loading="lazy" src={myPhoto} alt=""/>
                         </div>
 
                         <div id="box2" className="a_box col-6 d-flex flex-column align-items-center">

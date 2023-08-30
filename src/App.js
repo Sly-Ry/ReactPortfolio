@@ -1,17 +1,20 @@
+import './App.css';
+
 import { Routes, Route} from 'react-router-dom';
-import { Home } from './pages/Home';
-import { About } from './pages/About';
-import { Projects } from './pages/Projects'
-import { Contact } from './pages/Contact'
+import { Home } from './pages/Home/Home';
+import { About } from './pages/About/About';
+import { Projects } from './pages/Project/Projects'
+import { Contact } from './pages/Contact/Contact'
 import { Submit } from './pages/Submit';
 import { Error } from './pages/Error';
-import './styles/App.css';
-import { NavLayout } from './components/NavLayout';
+import { Header } from './layouts/Header/Header';
+import { BgImageComponent } from './components/BackgroundComponent';
 
 export default function App() {
   return (
     <>
-      <NavLayout />
+      <BgImageComponent />
+      <Header />
       <Routes>
         <Route exact path='/' element={<Home />}/>
         <Route exact path='/about' element={<About />}/>

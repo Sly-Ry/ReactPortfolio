@@ -1,0 +1,78 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  z-index: -9999;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: rgba(64, 75, 94, 0.08);
+  cursor: default;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.active:hover {
+  background-color: transparent;
+  letter-spacing: -1px;
+}
+
+
+/* Bootstrap */
+.container-fluid,
+.row,
+.col {
+  margin: 0;
+  padding: 0;
+}
+
+.dj {
+  display: flex;
+  justify-content: center;
+}
+
+.da {
+  display: flex;
+  align-items: center;
+}
+
+.dja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.djea {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.card-header {
+  border: none;
+  background-color: transparent;
+}

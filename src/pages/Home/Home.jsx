@@ -1,12 +1,12 @@
-import '../styles/Home.css'
+import './Home.css'
 
 export function Home() {
     return (
-        <div className="home_page">
+        <div id='home' className="homepage">
             
             <h1>This is</h1>
             <h2>RAW</h2>
-            <div className="name_box">
+            <div className="title">
                 <p className='talent'>Ryan</p>
                 <p className='talent'>Alexander</p>
                 <p className='talent'>Williams</p>

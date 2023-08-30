@@ -1,4 +1,4 @@
-import '../styles/Contact.css'
+import './Contact.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
 export function Contact() {
       

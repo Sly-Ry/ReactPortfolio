@@ -1,0 +1,36 @@
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+
+/* NAVBAR */
+nav .link {
+  padding: 0 75px;
+} 
+
+nav a {
+  font-size: 1.15rem;
+  color: rgb(122, 89, 141);
+}
+
+nav a:hover {
+  text-shadow: 0 2px 2px rgb(255, 255, 255);
+  color: rgb(209, 152, 255);
+}
+
+nav a.active:hover {
+  color: rgba(64, 75, 94, 0.08);
+  text-shadow: none;
+  text-decoration: none;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 991px) {
+  
+  /* Navbar */
+  header nav .link {
+    display: none;
+  }
+  
+}
