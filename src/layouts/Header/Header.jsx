@@ -1,7 +1,7 @@
 import './Header.css';
 
 import { NavLink } from "react-router-dom";
-import DropLayout from "./DropLayout"
+import DropLayout from "./DropLayout";
 
 export function Header() {  
 
