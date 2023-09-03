@@ -9,6 +9,7 @@ import { Submit } from './pages/Submit';
 import { Error } from './pages/Error';
 import { Header } from './layouts/Header/Header';
 import { BgImageComponent } from './components/BackgroundComponent';
+import DropLayout from './layouts/Header/DropLayout/DropLayout';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route exact path='/submit' element={<Submit/>}/>
         <Route exact path='*' element={<Error />}/>
       </Routes>
+      <DropLayout />
     </>
   )
 }

@@ -1,3 +1,9 @@
+:root {
+  --main-bgColor: rgb(190, 69, 214);
+  --second-bgColor: rgb(112, 2, 122);
+}
+
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6,25 +12,19 @@
   padding: 0;
 }
 
+
 html, body {
   width: 100%;
 }
+
 
 body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
   z-index: -9999;
-}
-
-.hidden {
-  display: none;
-}
-
-.active {
-  color: rgba(64, 75, 94, 0.08);
-  cursor: default;
 }
 
 li {
@@ -33,20 +33,33 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--main-bgColor);
 }
 
-a.active:hover {
-  background-color: transparent;
-  letter-spacing: -1px;
+
+/* Utilities */
+.tada
+.tada-sm,
+.tada-lg {
+  display: block;
 }
+
+.hidden,
+.hidden-sm,
+.hidden-lg {
+  display: none;
+}
+
+.active {
+  color: rgba(64, 75, 94, 0.08);
+  cursor: default;
+}
+
 
 
 /* Bootstrap */
-.container-fluid,
-.row,
-.col {
-  margin: 0;
-  padding: 0;
+.container-fluid {
+  margin: 0 !important;
 }
 
 .dj {
@@ -75,4 +88,26 @@ a.active:hover {
 .card-header {
   border: none;
   background-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+
+  .hidden-lg {
+    display: flex;
+  }
+
+  .tada-lg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 591px) {
+
+  .hidden-sm {
+    display: flex;
+  }
+
+  .tada-sm {
+    display: none;
+  }
 }
