@@ -116,7 +116,7 @@ a.active:hover {
 @media screen and (max-width: 591px) {
 
   .hidden-sm {
-    display: flex;
+    display: block;
   }
 
   .tada-sm {

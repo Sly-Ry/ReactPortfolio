@@ -21,9 +21,6 @@ export function Header() {
                         <NavLink to="/contact">CONTACT</NavLink>
                     </div>
                 </nav>
-                <div className="row dja hidden-sm">
-                    <h1>hello</h1>
-                </div>
             </header>
         </>
     )
