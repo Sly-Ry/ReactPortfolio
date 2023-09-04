@@ -8,7 +8,7 @@ export function About() {
             <div id="about" className="container-fluid">
                     <div className="row djea" style={{height: '100vh'}}>
                         <div id="box1"  className="col-12 col-md-10 col-lg-6 col-xl-5 da justify-content-end h-100">
-                           <img loading="lazy" src={myPhoto} alt="" className="rounded-0" style={{maxWidth: 450}}/>
+                           <img loading="lazy" src={myPhoto} alt="" className="rounded-3" style={{maxWidth: 450}}/>
                         </div>
                         <div id="box2" className="col-12 col-sm-10 col-lg-6 col-xl-5 dja flex-column rounded-5">
                             <div className="i_box1">

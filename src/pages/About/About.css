@@ -8,7 +8,22 @@
 
 #box1 {
     justify-content: center !important;
+    animation: photoslide ease-in 1.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+
+@keyframes photoslide {
+    0% {
+        opacity: 0;
+        right: -500;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
 #box2 .i_box1 i {
     position: relative;
     top: 80px;
