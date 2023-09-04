@@ -4,12 +4,12 @@ import { projectData } from '../data/projectData';
 export function ProjectLayout() {
     return (
         <>
-            <div id='projectrow' className="row da">
+            <div id='projrow' className="row g-4 da" style={{minHeight: '100vh'}}>
                 {
                     projectData.map(items => {
                         return (
                             <> 
-                                <div className="col col-sm-10 col-md-8 col-xl-6 col-xxl-4 py-3 djea">            
+                                <div className="project col-12 col-sm-10 col-md-8 col-lg-6 col-xxl-4 dj">            
                                     <ProjectComponent 
                                         key={items.key}
                                         id={items.id}
@@ -17,7 +17,6 @@ export function ProjectLayout() {
                                         src={items.src}
                                         alt={items.alt}
                                         iconId={items.iconId}
-                                        icon={items.icon}
                                         title={items.title}
                                         text={items.text}
                                         stack1={items.stack1}

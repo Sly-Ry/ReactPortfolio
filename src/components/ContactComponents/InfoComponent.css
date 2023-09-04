@@ -1,0 +1,62 @@
+.info_box {
+    background-color: rgba(61, 38, 66, 0.308);
+    border-radius: 0 17px 17px 0;
+    color: rgb(255, 255, 255);
+    word-break: break-all;
+}
+
+.c_info {
+    padding-left: 22px;
+    margin-bottom: -20px;
+    flex-direction: column;
+}
+
+/* ICONS */
+.icon_envelope:hover .bi:before {
+    content: "\F32D";
+}
+
+.icon_linkedin:hover .bi:before {
+    content: "\F406";
+}
+
+
+.icon_person:hover .bi:before {
+    content: "\F8C9";
+}
+
+.info_box .bi {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1199px) {
+    .c_info {
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .c_info label {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .info_box {
+        border-radius: 0;
+        border-radius: 0 0 17px 17px;
+    }
+}
+
+@media (max-width: 591px) {
+    .info_box {
+        margin: 0 !important;
+        padding: 0 p !important;
+        border-radius: 0;
+    }
+    .info_box h1 {
+        display: none;
+    }
+}

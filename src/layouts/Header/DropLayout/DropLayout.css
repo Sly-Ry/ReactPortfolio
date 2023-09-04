@@ -2,54 +2,34 @@
 
 
   #drop.navbar {
-    backdrop-filter: blur(15px) !important;
+    height: 80px;
+    border-radius: 50% 50% 0 0;
+    backdrop-filter: blur(7px) !important;
+    z-index: 4;
   }
 
   .dropdown-menu {
+    margin-bottom: -70px !important;
     background-color: rgba(27, 0, 27, 0.432);
     backdrop-filter: blur(55px) !important;
+    z-index: 3;
   }
 
-  /* .drop-btn {
-    position: absolute;
-    top: 50px;
-    left: 80%;
-    z-index: 9999999;
-  } */
-
-  /* #drop {
-    top: 0;
-    z-index: 1;
-  } */
-
- i {
-    color: rgb(112, 2, 122);
-    font-size: 2.5rem !important;
+  #drop button i {
+    color: rgb(253, 212, 253) !important;
+    font-size: 3rem !important;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.562);
   }
 
- 
- /* 
-  .dropdown-menu {
-    margin-top: -70px !important;
-    height: 100vh;
-    backdrop-filter: blur(5px);
-    background-color: rgba(230, 192, 213, 0.404);
-  } */
 
-  a {
+  #drop a:not(.active) {
     font-size: 3rem;
     color: white;
+    transition: text-shadow .4s ease-out;
   }
   
-  a:hover {
-    text-shadow: 0 2px 12px rgb(183, 0, 255);
-    color: rgb(213, 165, 252);
-  }
-  a.active:hover {
-    color: rgba(64, 75, 94, 0.08);
-    text-shadow: none;
-    text-decoration: none;
-    pointer-events: none;
+  #drop a:not(.active):hover {
+    text-shadow: 0 2px 12px rgb(164, 50, 240);
   }
 /* 
   @keyframes titleInAnimation {

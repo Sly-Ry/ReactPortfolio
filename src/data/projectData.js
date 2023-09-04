@@ -1,6 +1,6 @@
-import { faJar, faCloudSun, faCalculator, faCode, faMugHot } from '@fortawesome/free-solid-svg-icons'
+import { faCloudSun, faCalculator, faCode, faMugHot } from '@fortawesome/free-solid-svg-icons'
 
-import photo1 from '../assets/images/pickleSite.png'
+// import photo1 from '../assets/images/pickleSite.png'
 import photo3 from '../assets/images/calculator.png'
 import theatre from '../assets/images/theatre.jpg';
 import red from '../assets/images/red.jpg'
@@ -36,23 +36,23 @@ export const projectData = [
         code: faCode,
         codeHref: "https://github.com/Sly-Ry/harper-house",
     },
+    // {
+    //     key: 3,
+    //     id: "pickle-card",
+    //     href: "https://sly-ry.github.io/Product-Landing-Page/",
+    //     src: photo1,
+    //     alt: "Assorted variety of pickles",
+    //     iconId: "jar",
+    //     icon: faJar,
+    //     title: "Picklers' Pickles",
+    //     text: "Picklers' Pickles is a PWA for lovers of all things pickled where users can experience media tailored to specific pickle styles.",
+    //     stack1: "HTML",
+    //     stack2: "Bootstrap",
+    //     code: faCode,
+    //     codeHref: "https://github.com/Sly-Ry/Product-Landing-Page",
+    // },
     {
         key: 3,
-        id: "pickle-card",
-        href: "https://sly-ry.github.io/Product-Landing-Page/",
-        src: photo1,
-        alt: "Assorted variety of pickles",
-        iconId: "jar",
-        icon: faJar,
-        title: "Picklers' Pickles",
-        text: "Picklers' Pickles is a PWA for lovers of all things pickled where users can experience media tailored to specific pickle styles.",
-        stack1: "HTML",
-        stack2: "Bootstrap",
-        code: faCode,
-        codeHref: "https://github.com/Sly-Ry/Product-Landing-Page",
-    },
-    {
-        key: 4,
         id: "calculator-card",
         href: "https://sly-ry.github.io/Product-Landing-Page/",
         src: photo3,

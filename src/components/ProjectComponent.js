@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export function ProjectComponent({href, src, alt, iconId, icon, title, text, stack1, stack2, code, codeHref}) {
+export function ProjectComponent({href, src, alt, iconId, title, text, stack1, stack2, code, codeHref}) {
     return (
         <div className="proj card" style={{ width: '30rem' }}>
             <a href={href}>

@@ -3,14 +3,12 @@ header {
 }
 
 /* NAVBAR */
-
 nav .link {
   padding: 0 55px;
 } 
 
 nav a {
   font-size: 1.25rem;
-  color: var(--main-bgColor);
 }
 
 nav a:hover {
@@ -18,23 +16,12 @@ nav a:hover {
   color: rgb(209, 152, 255);
 }
 
-nav a.active:hover {
-  color: rgba(64, 75, 94, 0.08);
-  text-shadow: none;
-  text-decoration: none;
-}
-
 
 /* MEDIA QUERIES */
 @media (max-width: 591px) {
   
-  .header{
+  /* header {
     display: none !important;
-    background-color: transparent;
-  }
-  /* Navbar */
-  header nav .link {
-    display: none;
-  }
+  } */
   
 }

@@ -1,130 +1,107 @@
-#about {
-   /* overflow: hidden; */
-}
+/* MEDIA QUERIES */
 
 .info {
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
     background-color: rgba(43, 21, 61, 0.315);
     height: 100%; 
 }
 
-#box2 .i_box2 i {
-    position: relative;
-    bottom: 45px;
-    font-size: 150px;
-    text-shadow: 0px 5px 10px rgb(255, 219, 219);
-    color: rgba(255, 255, 255, 0.144);
-    animation: slideAnimation ease-in-out 65s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-}
-@keyframes slideAnimation {
-    0% {
-        opacity: 0;
-        left: -200px;
-    }
-    5% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
-    }
-    40% {
-        opacity: 0;
-        left: 220px;
-    }
-    75% {
-        opacity: 1;
-    }
-    90% {
-        opacity: 0;
-    }
-    100%{
-        opacity: 0;
-        left: -140px;
-    }
-} 
 
-#box2 .i_box1 i {
-    position: relative;
-    top: 80px;
-    font-size: 60px;
-    text-shadow: 0px 5px 10px rgb(255, 219, 219);
-    color: rgba(255, 255, 255, 0.144);
-    animation: slide2Animation ease-in-out 65s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-}
-@keyframes slide2Animation {
-    0% {
-        opacity: 0;
-        left: -200px;
-    }
-    5% {
-        opacity: 1;
-    }
-    10% {
-        opacity: 1;
-    }
-    40% {
-        opacity: 0;
-        left: -70px;
-    }
-    75% {
-        opacity: 1;
-    }
-    90% {
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        left: -240px;
-    }
-} 
-
-#box2 .info .about-me {
-    color: var(--second-bgColor);
-}
-
-/* MEDIA QUERIES */
- @media only screen and (max-width: 1199px) {
 
     #box1 {
         justify-content: center !important;
     }
-
-    #box2 {
-        margin-top: -40px;
+    #box2 .i_box1 i {
+        position: relative;
+        top: 80px;
+        font-size: 4rem;
+        text-shadow: 0px 5px 10px rgb(255, 219, 219);
+        color: rgba(255, 255, 255, 0.144);
+        animation: slide2Animation ease-in-out 65s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        z-index: 1;
     }
+    @keyframes slide2Animation {
+        0% {
+            opacity: 0;
+            left: -500px;
+        }
+        5% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+            left: 100px;
+        }
+        75% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;
+            left: -200px;
+        }
+    } 
+    
+    #box2 {
+        margin-top: -60px;
+    }
+    #box2 .i_box2 i {
+        position: relative;
+        bottom: 45px;
+        font-size: 7rem;
+        text-shadow: 0px 5px 10px rgb(255, 219, 219);
+        color: rgba(255, 255, 255, 0.144);
+        animation: slideAnimation ease-in-out 65s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    }
+    @keyframes slideAnimation {
+        0% {
+            opacity: 0;
+            right: -200px;
+        }
+        5% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+            right: 220px;
+        }
+        75% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;
+            right: -140px;
+        }
+    } 
 
     .about-me {
         display: flex;
         justify-content: center !important;
-    }
-/*    
-    .about_box .row {
-        flex-direction: column;
-        margin-left: 20px;
+        color: var(--second-bgColor);
     }
 
-    #box2 {
-        align-content: flex-start;
-        margin-top: 10px;
-        margin-left: 10px;
-        width: 100%;
-    }
+@media (max-width: 591px) {
 
-    .a_box img {
-        height: 100%;
-    }
-
-    .a_box .info {
-        width: 100%;
-    }
- */
     #box2 .i_box2 i {
-        animation: slideAnimation ease-in-out 60s;
-        animation-iteration-count: infinite;
-        animation-fill-mode: forwards;
-    } 
+        font-size: 100px;
+
+    }
+    #box2 .i_box2 i {
+        margin-bottom: 5rem;
+    }
 }

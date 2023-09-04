@@ -15,8 +15,8 @@ export function About() {
                                 <i className="fa-solid fa-cloud"></i>
                             </div>
                             <div className="info rounded-4 p-4 text-white">
-                                <p className="about-me fs-1 fw-bold">ABOUT ME</p>
-                                <p className="fs-4">A dedicated Frontend Developer based in Austin, TX</p>
+                                <p classNzame="about-me fs-1 fw-bold">ABOUT ME</p>
+                                <p className="fs-4 fw-bold">A dedicated Frontend Developer based in Austin, TX</p>
                                 <p className="fs-5">As a junior Frontend Developer, I possess an arsenal of skills in HTML, CSS, JavaScript, React, Bootstrap, and Materialize. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
                             </div>
                             <div className="i_box2">
